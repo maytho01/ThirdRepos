@@ -39,6 +39,10 @@
             this.grpSection = new System.Windows.Forms.GroupBox();
             this.cmdCalculate = new System.Windows.Forms.Button();
             this.radStall = new System.Windows.Forms.RadioButton();
+<<<<<<< HEAD
+=======
+            this.checkChild = new System.Windows.Forms.CheckBox();
+>>>>>>> remotes/ThirdRepos/feaet1.2_discount_type
             this.grpSection.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -152,11 +156,28 @@
             this.radStall.Text = "Back Stall";
             this.radStall.UseVisualStyleBackColor = true;
             // 
+<<<<<<< HEAD
+=======
+            // checkChild
+            // 
+            this.checkChild.AutoSize = true;
+            this.checkChild.Location = new System.Drawing.Point(229, 95);
+            this.checkChild.Name = "checkChild";
+            this.checkChild.Size = new System.Drawing.Size(49, 17);
+            this.checkChild.TabIndex = 11;
+            this.checkChild.Text = "Child";
+            this.checkChild.UseVisualStyleBackColor = true;
+            // 
+>>>>>>> remotes/ThirdRepos/feaet1.2_discount_type
             // TicketsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(608, 445);
+<<<<<<< HEAD
+=======
+            this.Controls.Add(this.checkChild);
+>>>>>>> remotes/ThirdRepos/feaet1.2_discount_type
             this.Controls.Add(this.cmdCalculate);
             this.Controls.Add(this.grpSection);
             this.Controls.Add(this.chkDiscount);
@@ -187,6 +208,10 @@
         private System.Windows.Forms.GroupBox grpSection;
         private System.Windows.Forms.Button cmdCalculate;
         private System.Windows.Forms.RadioButton radStall;
+<<<<<<< HEAD
+=======
+        private System.Windows.Forms.CheckBox checkChild;
+>>>>>>> remotes/ThirdRepos/feaet1.2_discount_type
     }
 }
 

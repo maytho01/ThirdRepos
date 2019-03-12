@@ -1,7 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+<<<<<<< HEAD
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
+=======
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+>>>>>>> remotes/ThirdRepos/feaet1.2_discount_type
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales", "Sales.csproj", "{5587F12A-C3F0-42E6-98B2-0C1ED7E25FB6}"
 EndProject
@@ -19,4 +24,10 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+<<<<<<< HEAD
+=======
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10B0020F-32D5-43A1-B607-6E9821FB0021}
+	EndGlobalSection
+>>>>>>> remotes/ThirdRepos/feaet1.2_discount_type
 EndGlobal
